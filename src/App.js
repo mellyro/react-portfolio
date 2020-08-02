@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About';
 import Nav from './components/Nav';
 import ContactForm from './components/Contact';
-// import Portfolio from
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -14,7 +14,8 @@ function App() {
     switch(currentPage) {
       case 'About':
         return <About />;
-      // Add Portfolio case here
+      case 'Portfolio':
+        return <Portfolio />
       case 'Contact':
         return <ContactForm />
       case 'Resume':
