@@ -1,16 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import About from 
-// import Nav from
-// import ContactForm from
+import About from './components/About';
+import Nav from './components/Nav';
+import ContactForm from './components/Contact';
 // import Portfolio from
-// import Resume from
+import Resume from './components/Resume';
 
 function App() {
   return (
     <div>
-      
+      <Nav />
+      <main>
+        <About />
+        <ContactForm />
+        <Resume />
+      </main>
     </div>
   );
 }
