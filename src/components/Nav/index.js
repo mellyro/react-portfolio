@@ -1,6 +1,7 @@
 import React from 'react';
 
-function Nav() {
+function Nav(props) {
+    const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
     return(
         <header className="flex-row px-1">
             <h2>
@@ -8,30 +9,21 @@ function Nav() {
                     Melissa Daskalantonakis
                 </a>
             </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li>
-                        <a href="#about">
-                            About Me
-                        </a>
+            <ul className="nav nav-tabs">
+                {tabs.map(tab => (
+                    <li className="nav-item" key={tab}>
+                    <a
+                        href={'#' + tab}
+                        onClick={() => props.handlePageChange(tab)}
+                        className={
+                        props.currentPage === tab ? 'nav-link active' : 'nav-link'
+                        }
+                    >
+                        {tab}
+                    </a>
                     </li>
-                    <li>
-                        <a href="#portfolio">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#contact">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#resume">
-                            Resume
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                ))}
+            </ul>
         </header>
     )
 }
