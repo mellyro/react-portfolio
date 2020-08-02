@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import ContactForm from './components/Contact';
 // import Portfolio from
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ContactForm />
         <Resume />
       </main>
+      <Footer />
     </div>
   );
 }
