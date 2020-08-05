@@ -78,12 +78,14 @@ body {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .footer .text-muted {
