@@ -35,13 +35,13 @@ const About = () => (
         <div className="row">
             <div className="col">
                 <div className="row">
-                    <div className="col-sm">
-                        <img src={html} style={{ width: "15%" }} alt="html" />
-                        <img src={bootstrap} style={{ width: "15%" }} alt="bootstrap" />
-                        <img src={css} style={{ width: "15%" }} alt="css" />
-                        <img src={github} style={{ width: "15%" }} alt="github" />
-                        <img src={handlebars} style={{ width: "15%" }} alt="handlebars" />
-                        <img src={javascript} style={{ width: "15%" }} alt="javascript" />
+                    <div className="col-sm text-center">
+                        <img src={html} style={{ width: "10%" }} alt="html" />
+                        <img src={bootstrap} style={{ width: "10%" }} alt="bootstrap" />
+                        <img src={css} style={{ width: "10%" }} alt="css" />
+                        <img src={github} style={{ width: "10%" }} alt="github" />
+                        <img src={handlebars} style={{ width: "10%" }} alt="handlebars" />
+                        <img src={javascript} style={{ width: "10%" }} alt="javascript" />
                     </div>
                 </div>
             </div>
@@ -49,12 +49,12 @@ const About = () => (
         <div className="row">
             <div className="col">
                 <div className="row">
-                    <div className="col-sm">
-                        <img src={mern} style={{ width: "15%" }} alt="mern" />
-                        <img src={mongodb} style={{ width: "15%" }} alt="mongodb" />
-                        <img src={mysql} style={{ width: "15%" }} alt="mysql" />
-                        <img src={node} style={{ width: "15%" }} alt="node" />
-                        <img src={react} style={{ width: "15%" }} alt="react" />
+                    <div className="col-sm text-center">
+                        <img src={mern} style={{ width: "10%" }} alt="mern" />
+                        <img src={mongodb} style={{ width: "10%" }} alt="mongodb" />
+                        <img src={mysql} style={{ width: "10%" }} alt="mysql" />
+                        <img src={node} style={{ width: "10%" }} alt="node" />
+                        <img src={react} style={{ width: "10%" }} alt="react" />
                     </div>
                 </div>
             </div>
