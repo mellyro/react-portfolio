@@ -1,51 +1,41 @@
 import React from 'react';
+import Jumbotron from '../Jumbotron';
+import Picture from '../Picture';
 import '../../index.css';
 
 function Portfolio() {  
     return(
         <div>
-        <section className="colorlib-work" data-section="projects">
-            <div className="colorlib-narrow-content">
-                <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                        <h2 className="colorlib-heading animate-box">Projects</h2>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                        <img src={require("../../assets/projects/hearth.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://infinite-ocean-27765.herokuapp.com/">Visit Hearth</a></h3>
-                        <h3><a href="https://github.com/melissadaska/hearth">Hearth GitHub Repo</a></h3>
-                    </div>
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                        <img src={require("../../assets/projects/paperlocator.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://melissadaska.github.io/dm-emergency-paper-locator/">Visit Paper Locator</a></h3>
-                        <h3><a href="https://github.com/melissadaska/dm-emergency-paper-locator">Paper Locator GitHub Repo</a></h3>
-                    </div>
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-                        <img src={require("../../assets/projects/photoport.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://melissadaska.github.io/photo-port/">Visit Photo Port</a></h3>
-                        <h3><a href="https://github.com/melissadaska/photo-port">Photo Port Repo</a></h3>
-                    </div>
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-                        <img src={require("../../assets/projects/foodfestival.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://melissadaska.github.io/food-festival/">Visit Food Festival</a></h3>
-                        <h3><a href="https://github.com/melissadaska/food-festival">Food Festival GitHub Repo</a></h3>
-                    </div>
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-                        <img src={require("../../assets/projects/runbuddy.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://melissadaska.github.io/run-buddy/">Visit Run Buddy</a></h3>
-                        <h3><a href="https://github.com/melissadaska/run-buddy">Run Buddy GitHub Repo</a></h3>
-                    </div>
-                    <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-                        <img src={require("../../assets/projects/horiseon.png")} style={{ width: "40%" }} alt="screenshot"></img>
-                        <h3><a href="https://melissadaska.github.io/horiseon-accessibility/">Visit Horiseon</a></h3>
-                        <h3><a href="https://github.com/melissadaska/horiseon-accessibility">Horiseon GitHub Repo</a></h3>
-                    </div>
-                </div>    
-            </div>
-        </section>
+        <Jumbotron phrase="Front to Back." subtitle="A list of full stack, front end, and back end projects I worked on" />
+        <h3>Full Stack Applications</h3>
+        <hr />
+        <div className="row">
+        <div className="col-md-6">
+            <Picture source={require("../../assets/projects/hearth.png")} alt="hearth" github="https://github.com/melissadaska/hearth" deployed="https://infinite-ocean-27765.herokuapp.com/" />
+          </div>
+          <div className="col-md-6">
+            <Picture source={require("../../assets/projects/photoport.png")}alt="photo-port" github="https://github.com/melissadaska/photo-port" deployed="https://melissadaska.github.io/photo-port/" />
+          </div>
+          <div className="col-md-6">
+            <Picture source={require("../../assets/projects/foodfestival.png")} alt="food-festival" github="https://github.com/melissadaska/food-festival" deployed="https://melissadaska.github.io/food-festival/" />
+          </div>
         </div>
+
+        <h3 className="frontend">Front End Websites</h3>
+        <hr />
+        <div className="row">
+
+          <div className="col-md-6">
+            <Picture source={require("../../assets/projects/paperlocator.png")} alt="paper-locator" github="https://github.com/melissadaska/dm-emergency-paper-locator" deployed="https://melissadaska.github.io/dm-emergency-paper-locator/" />
+          </div>
+          <div className="col-md-6">
+            <Picture source={require("../../assets/projects/runbuddy.png")} alt="paper-locator" github="https://github.com/melissadaska/run-buddy" deployed="https://melissadaska.github.io/run-buddy/" />
+          </div>
+          <div className="col-md-6">
+            <Picture source={require("../../assets/projects/horiseon.png")} alt="paper-locator" github="https://github.com/melissadaska/horiseon-accessibility" deployed="https://melissadaska.github.io/horiseon-accessibility/" />
+          </div>
+        </div>
+      </div>         
     );
 }
 
