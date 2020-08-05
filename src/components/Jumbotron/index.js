@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../../index.css';
 
 const Jumbotron = ({ phrase, subtitle }) => (
     <div className="jumbotron text-center">
@@ -16,7 +17,7 @@ Jumbotron.propTypes = {
 Jumbotron.defaultProps = {
     phrase: '',
     subtitle: '',
-}
+};
 
 
 export default Jumbotron;
