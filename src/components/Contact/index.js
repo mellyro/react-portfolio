@@ -37,31 +37,58 @@ function ContactForm() {
     }
 
     return (
-        <section>
+        <div id="my-contact" className="container text-center my-5">
             <h1>Contact Me</h1>
+
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+                <div className="form-group">
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                        <label htmlFor="name"></label>
+                        <input type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder="Name"
+                        className="form-control form-control-lg"
+                        />
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+                <div className="form-group hidden">
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                            <div>
+                            <label htmlFor="email"></label>
+                            <input type="email" defaultValue={email} onBlur={handleChange} name="email" placeholder="Email Address" 
+                            className="form-control form-control-lg"
+                            />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
+                <div className="form-group hiddenRight">
+                    <div className="row">
+                        <div className="col-12 col-sm-12 col-md-6 mx-auto">
+                            <div>
+                            <label htmlFor="message"></label>
+                            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} placeholder="Message"
+                            className="form-control form-control-lg"
+                            />
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
 
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-
-                <button type="submit">Submit</button>
+                <div className="row text-md-left text-sm-center">
+                    <div className="col-md-6 mx-auto">
+                        <button type="submit" className="btn btn-primary mb-2 hidden">Send Message</button>
+                    </div>
+                </div>
             </form>
-        </section>
+        </div>
     );
 }
 
