@@ -98,6 +98,15 @@ body {
   background: transparent !important;
 }
 
+.btn {
+  margin-top: 1rem;
+  padding: 8rem 2rem;
+  border-radius: 5rem;
+  border: 3px #122444 solid;
+  outline: none;
+  font-size: 30px;
+}
+
 .picContainer {
   position: relative;
   width: 100%;
