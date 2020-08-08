@@ -52,6 +52,14 @@ body {
 .portfolio{
   background-color: #2EC4B6;
   font-family: "Quicksand", sans-serif;
+  padding-left: 200px;
+}
+
+.resume {
+  background-color: #2EC4B6;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 

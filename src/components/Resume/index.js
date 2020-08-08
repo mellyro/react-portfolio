@@ -1,4 +1,5 @@
 import React from 'react';
+import Jumbotron from '../Jumbotron';
 import html from '../../assets/skills/html.png';
 import bootstrap from '../../assets/skills/bootstrap.png';
 import css from '../../assets/skills/css.png';
@@ -15,17 +16,20 @@ import '../../index.css';
 function Resume() {
     return(
         <section>
+        <Jumbotron phrase="Resume" subtitle="View my resume below" />
+
+        <div className="resume text-center">
             <div>
-            <h3 className="col-sm text-center">Resume</h3>
                 <div className="col-sm text-center">
-                    <p>View my resume on <a href="https://www.linkedin.com/in/melissa-daskalantonakis/">LinkedIn!</a></p>
+                    <h3>Visit my <a href="https://www.linkedin.com/in/melissa-daskalantonakis/">LinkedIn</a> to view my resume!</h3>
                 </div>
             </div>
 
             <br />
             <br />
+            <br />
 
-            <h3 className="col-sm text-center">Technical Skills</h3>
+            <h2 className="col-sm text-center">Technical Skills</h2>
             <br />
             <div className="row">
                 <div className="col">
@@ -54,6 +58,7 @@ function Resume() {
                     </div>
                 </div>
             </div>
+        </div>
         </section>
     );
 }
