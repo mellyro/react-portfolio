@@ -1,3 +1,17 @@
+# Melissa's React Portfolio
+
+## Description
+
+This is my personal portfolio created using REACT.
+
+[View my Portfolio!](https://melissadaska.github.io/react-portfolio/)
+
+![About Section](./src/assets/about.png)
+
+## Questions
+If you have any questions, you can reach me by emailing [melissa.daska@gmail.com](mailto:melissa.daska@gmail.com) or follow the link to my gitHub profile [melissadaska](https://github.com/melissadaska).
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
