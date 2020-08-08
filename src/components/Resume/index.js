@@ -18,7 +18,7 @@ function Resume() {
             <div>
             <h3 className="col-sm text-center">Resume</h3>
                 <div className="col-sm text-center">
-                    <p>View my LinkedIn to see resume <a href="https://www.linkedin.com/in/melissa-daskalantonakis/">Melissa's LinkedIn</a>.</p>
+                    <p>View my resume on <a href="https://www.linkedin.com/in/melissa-daskalantonakis/">LinkedIn!</a></p>
                 </div>
             </div>
 

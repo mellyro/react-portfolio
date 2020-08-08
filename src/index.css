@@ -4,15 +4,6 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.header {
-  padding-top: 50px;
-  font-family: "Quicksand", sans-serif;
-}
-
-code {
-  font-family: "Handlee", cursive;
-}
-
 a {
   text-decoration: none;
 }
@@ -44,38 +35,25 @@ body {
 .navbar {
   padding-top: 50px;
   font-family: "Quicksand", sans-serif;
+  background-color: #6C757D
 }
 
 .jumbotronMain,
-.jumbotron p,
-h3 {
+.lead {
   font-family: "Quicksand", sans-serif;
 }
 
-
-.jumbotron {
-  padding-top: 250px;
-  padding-bottom: 250px;
+.about {
+  background-color: #2EC4B6;
+  padding-bottom: 200px;
+  font-family: "Quicksand", sans-serif;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  margin-top: 30px;
-  margin-bottom: 30px;
+.portfolio{
+  background-color: #2EC4B6;
+  font-family: "Quicksand", sans-serif;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 120px;
-}
 
 .footer {
   position: relative;
@@ -93,11 +71,6 @@ body {
   padding-top: 4.5%;
 }
 
-.jumbotron,
-.navbar {
-  background: transparent !important;
-}
-
 .btn {
   margin-top: 1rem;
   padding: 8rem 2rem;
@@ -105,11 +78,6 @@ body {
   border: 3px #122444 solid;
   outline: none;
   font-size: 30px;
-}
-
-.picContainer {
-  position: relative;
-  width: 100%;
 }
 
 .image {
