@@ -13,10 +13,10 @@ const About = () => (
         <br />
         <br />
             <div className="row">
-                <div className="col-md-6 aboutSections">
+                <div className="col-md-5 aboutSections">
                     <img src={coverImage} style={{ width: "40%" }} alt="cover"/>
                 </div>
-                <div className="col-md-6 aboutSections">
+                <div className="col-md-7 aboutSections">
                     <div>
                     <h2>About Me:</h2>
                     <h4 className="bio bio1">

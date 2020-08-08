@@ -5,7 +5,7 @@ import '../../index.css';
 const Jumbotron = ({ phrase, subtitle }) => (
     <div>
         <br />
-        <h1 className="jumbotronMain text-center">{phrase}
+        <h1 className="display-4 jumbotronMain text-center">{phrase}
         <p className="lead text-center">{subtitle}</p>
         </h1>
         <br />
