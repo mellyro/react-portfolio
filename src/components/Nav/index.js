@@ -4,7 +4,7 @@ import '../../index.css';
 function Nav(props) {
     const tabs = ['About', 'Portfolio', 'Contact', 'Resume']
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="/">
                     Melissa Daskalantonakis
                 </a>

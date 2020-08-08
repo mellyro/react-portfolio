@@ -3,9 +3,14 @@ import PropTypes from 'prop-types';
 import '../../index.css';
 
 const Jumbotron = ({ phrase, subtitle }) => (
-    <div className="jumbotron text-center">
-        <h1 className="display-4 jumbotronMain">{phrase}</h1>
-        <p className="lead">{subtitle}</p>
+    <div>
+        <br />
+        <h1 className="jumbotronMain text-center">{phrase}
+        <p className="lead text-center">{subtitle}</p>
+        </h1>
+        <br />
+        <br />
+        <br />
     </div>
 );
 
