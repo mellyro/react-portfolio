@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95391ec4e61b48ac5b102e8d6908ae7e",
+    "revision": "2209e045e5aff6ac344ca45d8930b624",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "642953d01bda8d0f3dc1",
+    "revision": "f300131860b6ce574255",
     "url": "/react-portfolio/static/css/main.819d1fe0.chunk.css"
   },
   {
-    "revision": "de12b6cf26bf7e8320f0",
-    "url": "/react-portfolio/static/js/2.ba1889b4.chunk.js"
+    "revision": "8c61336b504a89aee587",
+    "url": "/react-portfolio/static/js/2.27a91986.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-portfolio/static/js/2.ba1889b4.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.27a91986.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "642953d01bda8d0f3dc1",
-    "url": "/react-portfolio/static/js/main.fe956320.chunk.js"
+    "revision": "f300131860b6ce574255",
+    "url": "/react-portfolio/static/js/main.0cb91710.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/bootstrap.eb258788.png"
   },
   {
-    "revision": "3281b3d275ce31b8c658e3f287ab1629",
-    "url": "/react-portfolio/static/media/foodfestival.3281b3d2.png"
+    "revision": "3671abedf373372710fedbd1d965ae08",
+    "url": "/react-portfolio/static/media/foodfestival.3671abed.png"
   },
   {
     "revision": "1150ff21be3b817f26bb89810f7e08aa",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f12a3dbf8da5da67f7698f8519939d46",
     "url": "/react-portfolio/static/media/hearth.f12a3dbf.png"
+  },
+  {
+    "revision": "943f46295e5c340a4fe0bf111fbf1671",
+    "url": "/react-portfolio/static/media/helpexchange.943f4629.png"
   },
   {
     "revision": "43636350ac83f788f00823356726c0e3",
@@ -68,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/paperlocator.74d5e80d.png"
   },
   {
-    "revision": "fd286bb2155ec2ae0cfbcce20d53f3e5",
-    "url": "/react-portfolio/static/media/photoport.fd286bb2.png"
+    "revision": "2fb4ed751f3363fef651cde4f06f2069",
+    "url": "/react-portfolio/static/media/photoport.2fb4ed75.png"
   },
   {
     "revision": "e86e8b13add426a2b469a952bc3e4b4e",
