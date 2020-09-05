@@ -14,11 +14,15 @@ function Portfolio() {
           <h2>Full Stack Applications</h2>
           <br />
           <div className="row">
+<<<<<<< HEAD
             <div className="col-md-5">
              <h3 className="text-center">Help Exchange</h3>
               <Picture source={require("../../assets/projects/helpexchange.png")} alt="hearth" github="https://github.com/melissadaska/Help-Exchange" deployed="https://rocky-retreat-38962.herokuapp.com/about" />
             </div>
             <div className="col-md-5">
+=======
+          <div className="col-md-5">
+>>>>>>> 2941245bb4460d8305a2db893fa31a69a85e864f
              <h3 className="text-center">Hearth</h3>
               <Picture source={require("../../assets/projects/hearth.png")} alt="hearth" github="https://github.com/melissadaska/hearth" deployed="https://infinite-ocean-27765.herokuapp.com/" />
             </div>
