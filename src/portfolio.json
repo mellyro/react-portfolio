@@ -1,0 +1,51 @@
+[
+    {
+    "id": 1,
+    "name": "Help Exchange",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/helpexchange.png",
+    "github": "https://github.com/melissadaska/Help-Exchange",
+    "deployed": "https://rocky-retreat-38962.herokuapp.com/about"
+    },
+    {
+    "id": 2,
+    "name": "Hearth",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/hearth.png",
+    "github": "https://github.com/melissadaska/hearth",
+    "deployed": "https://infinite-ocean-27765.herokuapp.com/"
+    },
+    {
+    "id": 3,
+    "name": "Paper Locator",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/paperlocator.png",
+    "github": "https://github.com/melissadaska/dm-emergency-paper-locator",
+    "deployed": "https://melissadaska.github.io/dm-emergency-paper-locator/"
+    },
+    {
+    "id": 4,
+    "name": "Photo Port",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/photoport.png",
+    "github": "https://github.com/melissadaska/photo-port",
+    "deployed": "https://melissadaska.github.io/photo-port/"
+    },
+    {
+    "id": 5,
+    "name": "Food Festival",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/foodfestival.png",
+    "github": "https://github.com/melissadaska/food-festival",
+    "deployed": "https://melissadaska.github.io/food-festival/"
+    },
+    {
+    "id": 6,
+    "name": "Run Buddy",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/runbuddy.png",
+    "github": "https://github.com/melissadaska/run-buddy",
+    "deployed": "https://melissadaska.github.io/run-buddy/"
+    },
+    {
+    "id": 7,
+    "name": "Horiseon",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/horiseon.png",
+    "github": "https://github.com/melissadaska/horiseon-accessibility",
+    "deployed": "https://melissadaska.github.io/horiseon-accessibility/"
+    }
+]

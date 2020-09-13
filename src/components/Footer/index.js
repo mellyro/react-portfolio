@@ -7,13 +7,20 @@ import '../../index.css';
 
 function Footer() {
     return(
-        <footer className="footer">
-           <a href="https://www.linkedin.com/in/melissa-daskalantonakis/">
-           <FontAwesomeIcon icon={faLinkedin} color="black" size="4x"/></a> 
-           <a href="https://github.com/melissadaska">
-           <FontAwesomeIcon icon={faGithub} color="black" size="4x"/></a> 
-           <a href="https://stackoverflow.com/users/13025338/melissa-daskalantonakis">
-           <FontAwesomeIcon icon={faStackOverflow} color="black" size="4x"/></a> 
+        <footer className="footer" id="footer">
+            <div className="">
+            <ul className="social-links">
+                <li><a href="https://www.linkedin.com/in/melissa-daskalantonakis/">
+                <FontAwesomeIcon icon={faLinkedin} size="lg"/></a> 
+                </li>
+                <li><a href="https://github.com/melissadaska">
+                <FontAwesomeIcon icon={faGithub} size="lg"/></a> 
+                </li>
+                <li><a href="https://stackoverflow.com/users/13025338/melissa-daskalantonakis">
+                <FontAwesomeIcon icon={faStackOverflow}  size="lg"/></a> 
+                </li>
+            </ul>
+           </div>
         </footer>
     )
 }
