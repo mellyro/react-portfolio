@@ -20,7 +20,7 @@ main {
 }
 :root {
   --primary-color: #861657;
-  --secondary-color: #369ba8;
+  --secondary-color: #861657;
   --tertiary-color: #6b0f1a;
   --body-text: #00132c; 
 }
@@ -404,8 +404,8 @@ textarea {
   padding: 10px;
   align-content: flex-start;
 }
-.content a, .content a:visited { color: rgba(17, 171, 176, 0.9); } 
-.content a:hover, .content a:focus { color: rgba(36, 69, 94, 0.9); }
+.content a, .content a:visited { color: #861657; } 
+.content a:hover, .content a:focus { color: #6b0f1a; }
 /*Resume*/
 #resume{
   font-size: 26px;
