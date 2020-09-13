@@ -19,7 +19,7 @@ class Resume extends Component {
     render() {
         return(
             <section className="section-title container">
-                <h1>Melissa Daskalantonakis: <span>Resume</span></h1>
+                <h1>My Resume</h1>
                 <hr></hr>
                 <div className="justify-content-center mt-5" id="resume">
                     <h2 className="font-weight-bold mb-4">Download my resume</h2>

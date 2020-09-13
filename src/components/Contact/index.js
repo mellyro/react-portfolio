@@ -5,7 +5,7 @@ class ContactForm extends Component {
     render() {
         return (
             <section className="section-title container"> 
-            <h1>Melissa Daskalantonakis: <span>Contact Info</span></h1>
+            <h1>Contact Me</h1>
             <hr></hr>
             <br />
                 <div className="row justify-content-center">
