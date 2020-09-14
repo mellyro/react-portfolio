@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 function Navigation() {
 
     return (
-        <Nav variant="pills" defaultActiveKey="/melissa-daska/#/about" className="row navigation" id="navigation">
+        <Nav variant="pills" defaultActiveKey="/react-portfolio/#/home" className="row navigation" id="navigation">
             
             <Nav.Item>
                 <Nav.Link eventKey="/home" href="/react-portfolio/#/home" id="hometab">
