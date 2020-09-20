@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import html from '../../assets/skills/html.png';
-import bootstrap from '../../assets/skills/bootstrap.png';
-import css from '../../assets/skills/css.png';
-import github from '../../assets/skills/github.png';
-import handlebars from '../../assets/skills/handlebars.png';
-import javascript from '../../assets/skills/javascript.png';
-import mern from '../../assets/skills/mern.png';
-import mongodb from '../../assets/skills/mongodb.png';
-import mysql from '../../assets/skills/mysql.png';
-import node from '../../assets/skills/nodejs.png';
-import react from '../../assets/skills/react.png';
+// import html from '../../assets/skills/html.png';
+// import bootstrap from '../../assets/skills/bootstrap.png';
+// import css from '../../assets/skills/css.png';
+// import github from '../../assets/skills/github.png';
+// import handlebars from '../../assets/skills/handlebars.png';
+// import javascript from '../../assets/skills/javascript.png';
+// import mern from '../../assets/skills/mern.png';
+// import mongodb from '../../assets/skills/mongodb.png';
+// import mysql from '../../assets/skills/mysql.png';
+// import node from '../../assets/skills/nodejs.png';
+// import react from '../../assets/skills/react.png';
+import certificate from '../../assets/certificate.png';
+import resume from '../../assets/resume.png';
 
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,8 +29,26 @@ class Resume extends Component {
                     <a href="https://github.com/melissadaska/react-portfolio/raw/master/src/assets/MELISSADRESUME.pdf" className="text-light text-decoration-none"><FontAwesomeIcon icon={faDownload} size="2x" alt="Download Resume"/></a>
                     </div>
                 </div>
+
                 <br />
-                <div className="justify-content-center m-5">
+
+                <div className="row">
+                    <div className="col">
+                        <img src={resume} style={{ width: "70%" }} alt="resume" />
+                    </div>
+                </div>
+
+                <br />
+
+                <div className="row">
+                    <div className="col">
+                        <img src={certificate} style={{ width: "70%" }} alt="cert" />
+                    </div>
+                </div>
+
+                <br />
+
+                {/* <div className="justify-content-center m-5">
 
                     <h2 className="font-weight-bold">Technical Skills</h2>
                     <br />
@@ -46,6 +66,9 @@ class Resume extends Component {
                             </div>
                         </div>
                     </div>
+
+                    <br />
+
                     <div className="row">
                         <div className="col">
                             <div className="row">
@@ -56,10 +79,10 @@ class Resume extends Component {
                                     <img src={node} style={{ width: "10%" }} alt="node" />
                                     <img src={react} style={{ width: "10%" }} alt="react" />
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         )
     }
