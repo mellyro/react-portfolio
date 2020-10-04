@@ -13,7 +13,7 @@ class Portfolio extends Component {
                 <hr></hr>
                 <Project id="card-data">
                     {portfolio.map((project) => (
-                    <Projects key={project.id} name={project.name} image={project.image}  github={project.github} deployed={project.deployed}/>
+                    <Projects key={project.id} name={project.name} image={project.image} github={project.github} deployed={project.deployed}/>
                     ))}
                 </Project>
             </section>
