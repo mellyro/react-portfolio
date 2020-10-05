@@ -4,76 +4,87 @@
     "name": "Help Exchange",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/helpexchange.png",
     "github": "https://github.com/melissadaska/Help-Exchange",
-    "deployed": "https://rocky-retreat-38962.herokuapp.com/about"
+    "deployed": "https://rocky-retreat-38962.herokuapp.com/about",
+    "tools": "React, GraphQL, Node.js, Express.js, Apollo Server, MongoDB/Mongoose, JSON Web Token, PWA"
     },
     {
     "id": 2,
     "name": "Hearth",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/hearth.png",
     "github": "https://github.com/melissadaska/hearth",
-    "deployed": "https://infinite-ocean-27765.herokuapp.com/"
+    "deployed": "https://infinite-ocean-27765.herokuapp.com/",
+    "tools": "Node.js, Express.js, Handlebars.js, MySQL/Sequelize, Jest, MVC Paradigm, Express-Session, Cookies"
     },
     {
     "id": 3,
     "name": "Redux Store",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/reduxstore.png",
     "github": "https://github.com/melissadaska/redux-store",
-    "deployed":"https://melissad-redux-store.herokuapp.com/"
+    "deployed":"https://melissad-redux-store.herokuapp.com/",
+    "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Redux, Stripe, IndexedDB"
     },
     {
     "id": 4,
     "name": "Books Search Engine",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/books.png",
     "github": "https://github.com/melissadaska/book-search-engine",
-    "deployed": "https://melissad-book-search-engine.herokuapp.com/"
+    "deployed": "https://melissad-book-search-engine.herokuapp.com/",
+    "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Google Books API"
     },
     {
     "id": 5,
     "name": "Photo Port",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/photoport.png",
     "github": "https://github.com/melissadaska/photo-port",
-    "deployed": "https://melissadaska.github.io/photo-port/"
+    "deployed": "https://melissadaska.github.io/photo-port/",
+    "tools": "React state, props, Hooks"
     },
     {
     "id": 6,
     "name": "Food Festival",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/foodfestival.png",
     "github": "https://github.com/melissadaska/food-festival",
-    "deployed": "https://melissadaska.github.io/food-festival/"
+    "deployed": "https://melissadaska.github.io/food-festival/",
+    "tools": "Webpack, Service Workers, PWA Web Manifest"
     },
     {
     "id": 7,
     "name": "Tech Blog",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/techblog.png",
     "github": "https://github.com/melissadaska/tech-blog",
-    "deployed": "https://melissad-techblog.herokuapp.com/"
+    "deployed": "https://melissad-techblog.herokuapp.com/",
+    "tools": "MySQL/Sequelize, Express.js, Handlebars.js, Bcrypt, Express-Session, MVC Paradigm"
     },
     {
     "id": 8,
     "name": "Pizza Hunt",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/pizza.png",
     "github": "https://github.com/melissadaska/pizza-hunt",
-    "deployed": "https://melissad-pizza-hunt.herokuapp.com/"
+    "deployed": "https://melissad-pizza-hunt.herokuapp.com/",
+    "tools": "MongoDB/Mongoose, IndexedDB"
     },
     {
     "id": 9,
     "name": "Budget Tracker",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/budgetracker.png",
     "github": "https://github.com/melissadaska/PWA-budget-tracker",
-    "deployed": "https://melissad-budget-tracker.herokuapp.com/"
+    "deployed": "https://melissad-budget-tracker.herokuapp.com/",
+    "tools": "IndexedDB, Service Workers, PWA Web Manifest"
     },
     {
     "id": 10,
     "name": "Run Buddy",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/runbuddy.png",
     "github": "https://github.com/melissadaska/run-buddy",
-    "deployed": "https://melissadaska.github.io/run-buddy/"
+    "deployed": "https://melissadaska.github.io/run-buddy/",
+    "tools": "HTML, CSS"
     },
     {
     "id": 11,
     "name": "Horiseon",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/horiseon.png",
     "github": "https://github.com/melissadaska/horiseon-accessibility",
-    "deployed": "https://melissadaska.github.io/horiseon-accessibility/"
+    "deployed": "https://melissadaska.github.io/horiseon-accessibility/",
+    "tools": "HTML, CSS"
     }
 ]
