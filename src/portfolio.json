@@ -20,7 +20,6 @@
     "name": "Redux Store",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/reduxstore.png",
     "github": "https://github.com/melissadaska/redux-store",
-    "deployed":"https://melissad-redux-store.herokuapp.com/",
     "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Redux, Stripe, IndexedDB"
     },
     {
