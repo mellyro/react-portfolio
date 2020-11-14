@@ -4,7 +4,7 @@
     "name": "Help Exchange",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/helpexchange.png",
     "github": "https://github.com/melissadaska/Help-Exchange",
-    "deployed": "https://rocky-retreat-38962.herokuapp.com/about",
+    "deployed": "https://melissad-help-exchange.herokuapp.com/",
     "tools": "React, GraphQL, Node.js, Express.js, Apollo Server, MongoDB/Mongoose, JSON Web Token, PWA"
     },
     {
