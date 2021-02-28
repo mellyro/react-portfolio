@@ -24,6 +24,13 @@
     },
     {
     "id": 4,
+    "name": "React Todo List",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/todolist.png",
+    "github": "https://github.com/melissadaska/react-todo-list",
+    "tools": "React, ContextAPI"
+    },
+    {
+    "id": 5,
     "name": "Books Search Engine",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/books.png",
     "github": "https://github.com/melissadaska/book-search-engine",
@@ -31,7 +38,7 @@
     "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Google Books API"
     },
     {
-    "id": 5,
+    "id": 6,
     "name": "Photo Port",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/photoport.png",
     "github": "https://github.com/melissadaska/photo-port",
@@ -39,7 +46,7 @@
     "tools": "React state, props, Hooks"
     },
     {
-    "id": 6,
+    "id": 7,
     "name": "Food Festival",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/foodfestival.png",
     "github": "https://github.com/melissadaska/food-festival",
@@ -47,7 +54,7 @@
     "tools": "Webpack, Service Workers, PWA Web Manifest"
     },
     {
-    "id": 7,
+    "id": 8,
     "name": "Tech Blog",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/techblog.png",
     "github": "https://github.com/melissadaska/tech-blog",
@@ -55,7 +62,7 @@
     "tools": "MySQL/Sequelize, Express.js, Handlebars.js, Bcrypt, Express-Session, MVC Paradigm"
     },
     {
-    "id": 8,
+    "id": 9,
     "name": "Pizza Hunt",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/pizza.png",
     "github": "https://github.com/melissadaska/pizza-hunt",
@@ -63,7 +70,7 @@
     "tools": "MongoDB/Mongoose, IndexedDB"
     },
     {
-    "id": 9,
+    "id": 10,
     "name": "Budget Tracker",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/budgetracker.png",
     "github": "https://github.com/melissadaska/PWA-budget-tracker",
@@ -71,7 +78,7 @@
     "tools": "IndexedDB, Service Workers, PWA Web Manifest"
     },
     {
-    "id": 10,
+    "id": 11,
     "name": "Run Buddy",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/runbuddy.png",
     "github": "https://github.com/melissadaska/run-buddy",
@@ -79,7 +86,7 @@
     "tools": "HTML, CSS"
     },
     {
-    "id": 11,
+    "id": 12,
     "name": "Horiseon",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/horiseon.png",
     "github": "https://github.com/melissadaska/horiseon-accessibility",
