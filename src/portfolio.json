@@ -27,6 +27,7 @@
     "name": "React Todo List",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/todolist.png",
     "github": "https://github.com/melissadaska/react-todo-list",
+    "deployed": "https://melissadaska.github.io/react-todo-list/",
     "tools": "React, ContextAPI"
     },
     {
