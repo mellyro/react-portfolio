@@ -1,6 +1,14 @@
 [
     {
     "id": 1,
+    "name": "Project Planner",
+    "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/projectplanner.png",
+    "github": "https://github.com/melissadaska/project-planner",
+    "deployed": "https://project-planner-df0aa.web.app/",
+    "tools": "React, Redux, and Firebase Database, Hosting and Cloud Functions"
+    },
+    {
+    "id": 2,
     "name": "Help Exchange",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/helpexchange.png",
     "github": "https://github.com/melissadaska/Help-Exchange",
@@ -8,7 +16,7 @@
     "tools": "React, GraphQL, Node.js, Express.js, Apollo Server, MongoDB/Mongoose, JSON Web Token, PWA"
     },
     {
-    "id": 2,
+    "id": 3,
     "name": "Hearth",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/hearth.png",
     "github": "https://github.com/melissadaska/hearth",
@@ -16,14 +24,14 @@
     "tools": "Node.js, Express.js, Handlebars.js, MySQL/Sequelize, Jest, MVC Paradigm, Express-Session, Cookies"
     },
     {
-    "id": 3,
+    "id": 4,
     "name": "Redux Store",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/reduxstore.png",
     "github": "https://github.com/melissadaska/redux-store",
     "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Redux, Stripe, IndexedDB"
     },
     {
-    "id": 4,
+    "id": 5,
     "name": "React Todo List",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/todolist.png",
     "github": "https://github.com/melissadaska/react-todo-list",
@@ -31,7 +39,7 @@
     "tools": "React, ContextAPI"
     },
     {
-    "id": 5,
+    "id": 6,
     "name": "Books Search Engine",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/books.png",
     "github": "https://github.com/melissadaska/book-search-engine",
@@ -39,7 +47,7 @@
     "tools": "React, Node.js, Express.js, MongoDB, GraphQL, Apollo Server, Google Books API"
     },
     {
-    "id": 6,
+    "id": 7,
     "name": "Photo Port",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/photoport.png",
     "github": "https://github.com/melissadaska/photo-port",
@@ -47,7 +55,7 @@
     "tools": "React state, props, Hooks"
     },
     {
-    "id": 7,
+    "id": 8,
     "name": "Food Festival",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/foodfestival.png",
     "github": "https://github.com/melissadaska/food-festival",
@@ -55,7 +63,7 @@
     "tools": "Webpack, Service Workers, PWA Web Manifest"
     },
     {
-    "id": 8,
+    "id": 9,
     "name": "Tech Blog",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/techblog.png",
     "github": "https://github.com/melissadaska/tech-blog",
@@ -63,7 +71,7 @@
     "tools": "MySQL/Sequelize, Express.js, Handlebars.js, Bcrypt, Express-Session, MVC Paradigm"
     },
     {
-    "id": 9,
+    "id": 10,
     "name": "Pizza Hunt",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/pizza.png",
     "github": "https://github.com/melissadaska/pizza-hunt",
@@ -71,7 +79,7 @@
     "tools": "MongoDB/Mongoose, IndexedDB"
     },
     {
-    "id": 10,
+    "id": 11,
     "name": "Budget Tracker",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/budgetracker.png",
     "github": "https://github.com/melissadaska/PWA-budget-tracker",
@@ -79,7 +87,7 @@
     "tools": "IndexedDB, Service Workers, PWA Web Manifest"
     },
     {
-    "id": 11,
+    "id": 12,
     "name": "Run Buddy",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/runbuddy.png",
     "github": "https://github.com/melissadaska/run-buddy",
@@ -87,7 +95,7 @@
     "tools": "HTML, CSS"
     },
     {
-    "id": 12,
+    "id": 13,
     "name": "Horiseon",
     "image": "https://raw.githubusercontent.com/melissadaska/react-portfolio/master/src/assets/projects/horiseon.png",
     "github": "https://github.com/melissadaska/horiseon-accessibility",
